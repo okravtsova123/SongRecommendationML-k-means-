@@ -2,20 +2,6 @@
 # user inputs a song and a mode: either choosing otehr 'hot songs' or 'spotify rec'
 # if the song is in the cart - recommendation from the same chart, if not - can check the other chart or go to spotify rec
 
-import numpy as np
-import pandas as pd
-import pickle
-from sklearn import datasets # sklearn comes with some toy datasets to practice
-from sklearn.preprocessing import StandardScaler
-from sklearn.cluster import KMeans
-import matplotlib.pyplot as plt
-from sklearn.metrics import silhouette_score
-import json
-from spotipy.oauth2 import SpotifyClientCredentials
-import config #file with client_id and secret for the Spotify API
-import spotipy
-from IPython.display import IFrame
-import pandas as pd
 from bs4 import BeautifulSoup
 import requests
 import random
